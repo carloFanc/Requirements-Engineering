@@ -1,0 +1,736 @@
+{
+  "actors": [
+    {
+      "id": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "text": "User",
+      "type": "istar.Actor",
+      "x": 667,
+      "y": 607,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "3d31d939-8f17-461f-92e3-6f5b01ca95e3",
+          "text": "recipe found",
+          "type": "istar.Goal",
+          "x": 770,
+          "y": 615,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "25d772cc-442d-4fe4-903d-8111c1f7719c",
+          "text": "recipe list with existing ingredients obtained",
+          "type": "istar.Goal",
+          "x": 827,
+          "y": 695,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "934f24e3-8e97-4e55-b024-855a4ffe6728",
+          "text": "recipe list with missing ingredients obtained",
+          "type": "istar.Goal",
+          "x": 707,
+          "y": 688,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "807eb9a0-29e0-4ab8-8eb2-de71fd33b79f",
+          "text": "ingredients defined",
+          "type": "istar.Task",
+          "x": 764,
+          "y": 765,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "5878dbcb-24b3-474c-a98e-5b3436710d4c",
+          "text": "easily",
+          "type": "istar.Quality",
+          "x": 924,
+          "y": 620,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "9a8f5371-0445-4588-bb2e-1f06201d16d0",
+      "text": "Recipe DB",
+      "type": "istar.Actor",
+      "x": 268,
+      "y": 125,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "cfe99983-8444-49a3-a5ed-d91c3c51b67d",
+          "text": "recipes collection",
+          "type": "istar.Resource",
+          "x": 385,
+          "y": 125,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "5231499c-8f9f-45da-a385-17ca76494ebf",
+      "text": "Pantry",
+      "type": "istar.Actor",
+      "x": 181,
+      "y": 515,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "3bedbfb6-212e-4c24-b0a6-86f1911292ae",
+      "text": "Store",
+      "type": "istar.Actor",
+      "x": 1159,
+      "y": 79,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "28a0dfde-09eb-4fe0-bd36-2f056b12ec31",
+          "text": "make profit",
+          "type": "istar.Goal",
+          "x": 1240,
+          "y": 83,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "text": "RecipEasy",
+      "type": "istar.Actor",
+      "x": 665,
+      "y": 27,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "2ba176d7-5f9c-43f9-9b14-bcea73af9b0b",
+          "text": "Recipe found",
+          "type": "istar.Goal",
+          "x": 758,
+          "y": 42,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "9aa1f6c7-7300-4475-8012-2f9df5b45a1f",
+          "text": "easily",
+          "type": "istar.Quality",
+          "x": 911,
+          "y": 27,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3d95e463-6ddf-4384-81ae-2a3047405d3d",
+          "text": "personalized",
+          "type": "istar.Quality",
+          "x": 977,
+          "y": 86,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "e85f51b6-32bb-4257-96e5-e550a48e1229",
+          "text": "quickly",
+          "type": "istar.Quality",
+          "x": 879,
+          "y": 101,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "b608462c-cfd7-4755-a670-de057fe2e46f",
+          "text": "provide missing ingredients",
+          "type": "istar.Task",
+          "x": 666,
+          "y": 132,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "95dc048c-fc11-4421-9f5f-90bdbb012fa2",
+          "text": "process payment",
+          "type": "istar.Task",
+          "x": 665,
+          "y": 177,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "f034601a-4f31-4fb2-b7c2-8c60305ab4c7",
+          "text": "userfriendly UI",
+          "type": "istar.Quality",
+          "x": 768,
+          "y": 141,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "text": "RU",
+      "type": "istar.Actor",
+      "x": 1205,
+      "y": 463,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "d4aff334-8780-4680-a3f3-fd08517ada94",
+          "text": "missing ingredients bought",
+          "type": "istar.Goal",
+          "x": 1284,
+          "y": 507,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bda31f28-e7bb-4faa-9cdb-3587e3b1c79d",
+          "text": "quickly",
+          "type": "istar.Quality",
+          "x": 1419,
+          "y": 575,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "bb6f28d1-d9a4-4ed6-a00e-ccf6a2fa4071",
+          "text": "easily",
+          "type": "istar.Quality",
+          "x": 1421,
+          "y": 520,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "012e8a9c-af67-4c80-8cf3-59d171ff2e2a",
+          "text": "safely",
+          "type": "istar.Quality",
+          "x": 1417,
+          "y": 463,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "3ea3703b-5b2f-47cd-a3a1-dabebc383bc6",
+          "text": "by Paypal",
+          "type": "istar.Task",
+          "x": 1241,
+          "y": 574,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "08a7d49b-a3b0-42b7-b224-48f115b9f7ff",
+          "text": "by Credit card",
+          "type": "istar.Task",
+          "x": 1332,
+          "y": 575,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "762b8c37-6067-4e7d-9860-acc2f2ba8a65",
+      "text": "define list of ingredients for recipe",
+      "type": "istar.Task",
+      "x": 419,
+      "y": 554,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "5231499c-8f9f-45da-a385-17ca76494ebf"
+    },
+    {
+      "id": "efb8d167-994f-4e39-bbfa-ff82ff90582e",
+      "text": "existing ingredients",
+      "type": "istar.Resource",
+      "x": 422,
+      "y": 600,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "5231499c-8f9f-45da-a385-17ca76494ebf",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "149c379d-ee7a-429e-ac79-269f60bcff91",
+      "text": "receive payment",
+      "type": "istar.Task",
+      "x": 1159,
+      "y": 251,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "3bedbfb6-212e-4c24-b0a6-86f1911292ae",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "189f43df-12d8-48c4-808e-21ed62c6370b",
+      "text": "payment information",
+      "type": "istar.Resource",
+      "x": 900,
+      "y": 338,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "778441ca-d990-4b03-9887-91565ce7bda3"
+    },
+    {
+      "id": "efaf6084-63e7-4200-b6b3-a7c31661697d",
+      "text": "obtain missing ingredients",
+      "type": "istar.Task",
+      "x": 1289,
+      "y": 252,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "target": "3bedbfb6-212e-4c24-b0a6-86f1911292ae"
+    },
+    {
+      "id": "71db7fba-52c7-4e15-ba60-848d130dd7b6",
+      "text": "list of ingredients",
+      "type": "istar.Resource",
+      "x": 747,
+      "y": 443,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "6daa9e16-7a0c-43d5-8604-3c385c2f1162",
+      "text": "define missing ingredients",
+      "type": "istar.Task",
+      "x": 438,
+      "y": 444,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "39107ab5-0558-47d7-a193-d4c5fee3a720",
+      "text": "reviews",
+      "type": "istar.Resource",
+      "x": 998,
+      "y": 339,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "130d917e-bf7b-4b3d-8f83-70a9585dfb59",
+      "text": "review recipes",
+      "type": "istar.Task",
+      "x": 1092,
+      "y": 338,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "7927f601-9251-442c-9b12-ade113929648",
+      "text": "obtain filtered list of recipes",
+      "type": "istar.Task",
+      "x": 542,
+      "y": 444,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "ce0c75cf-fb1b-44a8-bb8d-873a7fd4ca85",
+      "text": "list of recipes",
+      "type": "istar.Resource",
+      "x": 500,
+      "y": 187,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    },
+    {
+      "id": "d90b80d0-8118-4b9a-9a1d-564792943b70",
+      "text": "save recipes to Favourites",
+      "type": "istar.Task",
+      "x": 1192,
+      "y": 337,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "a4431bc8-ac65-442f-9763-0119c7990038",
+      "text": "filters",
+      "type": "istar.Resource",
+      "x": 647,
+      "y": 443,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "01cde91d-1fdb-49a9-88e5-33d9d5d353c8",
+      "text": "list of ingredients with Voice Recognition",
+      "type": "istar.Resource",
+      "x": 847,
+      "y": 427,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "778441ca-d990-4b03-9887-91565ce7bda3"
+    }
+  ],
+  "links": [
+    {
+      "id": "09cd755b-bcf3-403a-9c4f-061f332fab37",
+      "type": "istar.DependencyLink",
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "762b8c37-6067-4e7d-9860-acc2f2ba8a65"
+    },
+    {
+      "id": "c6ea87e5-35ac-4420-920f-fc59be8b14ba",
+      "type": "istar.DependencyLink",
+      "source": "762b8c37-6067-4e7d-9860-acc2f2ba8a65",
+      "target": "5231499c-8f9f-45da-a385-17ca76494ebf"
+    },
+    {
+      "id": "70ad6ecb-3cba-4f0e-bfa3-3237afa6711a",
+      "type": "istar.DependencyLink",
+      "source": "5231499c-8f9f-45da-a385-17ca76494ebf",
+      "target": "efb8d167-994f-4e39-bbfa-ff82ff90582e"
+    },
+    {
+      "id": "46d95b1b-d5f8-454c-869e-53a1b310d8e5",
+      "type": "istar.DependencyLink",
+      "source": "efb8d167-994f-4e39-bbfa-ff82ff90582e",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "636cec2d-5509-48e8-a434-99a4be1ec6d4",
+      "type": "istar.DependencyLink",
+      "source": "3bedbfb6-212e-4c24-b0a6-86f1911292ae",
+      "target": "149c379d-ee7a-429e-ac79-269f60bcff91"
+    },
+    {
+      "id": "9c630d70-4240-4f49-9ee2-9ca268bb0a04",
+      "type": "istar.DependencyLink",
+      "source": "149c379d-ee7a-429e-ac79-269f60bcff91",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "f1366354-3e62-41cf-94f6-bb11232e7632",
+      "type": "istar.DependencyLink",
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "189f43df-12d8-48c4-808e-21ed62c6370b"
+    },
+    {
+      "id": "8ed6634b-982b-4aaf-bfd6-2efad01e0e09",
+      "type": "istar.DependencyLink",
+      "source": "189f43df-12d8-48c4-808e-21ed62c6370b",
+      "target": "778441ca-d990-4b03-9887-91565ce7bda3"
+    },
+    {
+      "id": "cf6a7b47-64e0-43cf-a5d4-0efead5dfe98",
+      "type": "istar.DependencyLink",
+      "source": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "target": "efaf6084-63e7-4200-b6b3-a7c31661697d"
+    },
+    {
+      "id": "59400d49-5505-48bb-b580-89da28ef2540",
+      "type": "istar.DependencyLink",
+      "source": "efaf6084-63e7-4200-b6b3-a7c31661697d",
+      "target": "3bedbfb6-212e-4c24-b0a6-86f1911292ae"
+    },
+    {
+      "id": "51502c63-3a8c-475e-a385-de5b101c9f53",
+      "type": "istar.DependencyLink",
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "71db7fba-52c7-4e15-ba60-848d130dd7b6"
+    },
+    {
+      "id": "206968d1-f697-43dc-bbe4-ab0962dd15ab",
+      "type": "istar.DependencyLink",
+      "source": "71db7fba-52c7-4e15-ba60-848d130dd7b6",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "9955e4d8-03dd-4ed5-a85c-56820a04881c",
+      "type": "istar.DependencyLink",
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "6daa9e16-7a0c-43d5-8604-3c385c2f1162"
+    },
+    {
+      "id": "f46c0b9a-2bee-4354-8f8b-9fb939e0c531",
+      "type": "istar.DependencyLink",
+      "source": "6daa9e16-7a0c-43d5-8604-3c385c2f1162",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "755efa1c-26a4-4905-8da6-937c160f02b4",
+      "type": "istar.DependencyLink",
+      "source": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "target": "39107ab5-0558-47d7-a193-d4c5fee3a720"
+    },
+    {
+      "id": "2e73a476-441f-4a8b-8b28-b8f2695f8597",
+      "type": "istar.DependencyLink",
+      "source": "39107ab5-0558-47d7-a193-d4c5fee3a720",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "3a6770e5-9061-492b-a3ad-bd23015a382a",
+      "type": "istar.DependencyLink",
+      "source": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "target": "130d917e-bf7b-4b3d-8f83-70a9585dfb59"
+    },
+    {
+      "id": "9522e276-9373-44df-8aa5-c410ff4174b5",
+      "type": "istar.DependencyLink",
+      "source": "130d917e-bf7b-4b3d-8f83-70a9585dfb59",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "6d1153e5-ed37-49d5-8dff-afb54edd9d86",
+      "type": "istar.DependencyLink",
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "7927f601-9251-442c-9b12-ade113929648"
+    },
+    {
+      "id": "ed559dc8-6f0e-4c78-8e1c-6188750d0fd1",
+      "type": "istar.DependencyLink",
+      "source": "7927f601-9251-442c-9b12-ade113929648",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "4aa7d2dc-b820-4c6e-96e6-68f76966da0a",
+      "type": "istar.DependencyLink",
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "ce0c75cf-fb1b-44a8-bb8d-873a7fd4ca85"
+    },
+    {
+      "id": "3f6022fd-3822-4748-81bc-7f9999a9e631",
+      "type": "istar.DependencyLink",
+      "source": "ce0c75cf-fb1b-44a8-bb8d-873a7fd4ca85",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    },
+    {
+      "id": "0f7d4db3-ed37-4474-8c7e-c7e39214ce15",
+      "type": "istar.DependencyLink",
+      "source": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "target": "d90b80d0-8118-4b9a-9a1d-564792943b70"
+    },
+    {
+      "id": "7e1c055e-c58a-481b-a21c-820a19ed2ecb",
+      "type": "istar.DependencyLink",
+      "source": "d90b80d0-8118-4b9a-9a1d-564792943b70",
+      "target": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1"
+    },
+    {
+      "id": "4c42db32-fd23-4584-a6d2-67dba8d792ed",
+      "type": "istar.DependencyLink",
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "a4431bc8-ac65-442f-9763-0119c7990038"
+    },
+    {
+      "id": "c50d729a-d130-403e-aca5-d034b2fc6152",
+      "type": "istar.DependencyLink",
+      "source": "a4431bc8-ac65-442f-9763-0119c7990038",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "25c85981-b0cd-4a15-beeb-a193fc8dc7bb",
+      "type": "istar.DependencyLink",
+      "source": "5ab22037-a2b2-4c66-97cb-e52e7d68fca1",
+      "target": "01cde91d-1fdb-49a9-88e5-33d9d5d353c8"
+    },
+    {
+      "id": "5436fd67-a2e0-401f-9dcf-973a319284a4",
+      "type": "istar.DependencyLink",
+      "source": "01cde91d-1fdb-49a9-88e5-33d9d5d353c8",
+      "target": "778441ca-d990-4b03-9887-91565ce7bda3"
+    },
+    {
+      "id": "26524f51-9a7d-468c-b6d9-e963d3b750ad",
+      "type": "istar.OrRefinementLink",
+      "source": "934f24e3-8e97-4e55-b024-855a4ffe6728",
+      "target": "3d31d939-8f17-461f-92e3-6f5b01ca95e3"
+    },
+    {
+      "id": "ae8b30e5-5279-4f9f-870d-46b5d7920e5b",
+      "type": "istar.OrRefinementLink",
+      "source": "25d772cc-442d-4fe4-903d-8111c1f7719c",
+      "target": "3d31d939-8f17-461f-92e3-6f5b01ca95e3"
+    },
+    {
+      "id": "fa1f8f95-9329-4b28-9bd2-d6e179293a4a",
+      "type": "istar.IsALink",
+      "source": "778441ca-d990-4b03-9887-91565ce7bda3",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "d9c3ef47-cd78-422d-9af5-dff002b35cf1",
+      "type": "istar.QualificationLink",
+      "source": "5878dbcb-24b3-474c-a98e-5b3436710d4c",
+      "target": "3d31d939-8f17-461f-92e3-6f5b01ca95e3"
+    },
+    {
+      "id": "192eeca8-6244-438f-92cb-ff0be0094452",
+      "type": "istar.QualificationLink",
+      "source": "9aa1f6c7-7300-4475-8012-2f9df5b45a1f",
+      "target": "2ba176d7-5f9c-43f9-9b14-bcea73af9b0b"
+    },
+    {
+      "id": "44dac633-7fe3-4cec-a00d-5f288884217b",
+      "type": "istar.QualificationLink",
+      "source": "3d95e463-6ddf-4384-81ae-2a3047405d3d",
+      "target": "2ba176d7-5f9c-43f9-9b14-bcea73af9b0b"
+    },
+    {
+      "id": "8670b17f-8ffb-4b56-beda-2950e5651f59",
+      "type": "istar.QualificationLink",
+      "source": "e85f51b6-32bb-4257-96e5-e550a48e1229",
+      "target": "2ba176d7-5f9c-43f9-9b14-bcea73af9b0b"
+    },
+    {
+      "id": "ec9bbc06-5218-48e9-a67d-0b5a4f621ebd",
+      "type": "istar.QualificationLink",
+      "source": "bda31f28-e7bb-4faa-9cdb-3587e3b1c79d",
+      "target": "d4aff334-8780-4680-a3f3-fd08517ada94"
+    },
+    {
+      "id": "b87dc436-3869-4fcd-b4f5-ec5b1814c4e9",
+      "type": "istar.QualificationLink",
+      "source": "bb6f28d1-d9a4-4ed6-a00e-ccf6a2fa4071",
+      "target": "d4aff334-8780-4680-a3f3-fd08517ada94"
+    },
+    {
+      "id": "541ff4ec-3722-48ce-aa02-39f864f4f541",
+      "type": "istar.QualificationLink",
+      "source": "012e8a9c-af67-4c80-8cf3-59d171ff2e2a",
+      "target": "d4aff334-8780-4680-a3f3-fd08517ada94"
+    },
+    {
+      "id": "21295f3c-e2d5-4943-9734-6b4c609e559d",
+      "type": "istar.OrRefinementLink",
+      "source": "3ea3703b-5b2f-47cd-a3a1-dabebc383bc6",
+      "target": "d4aff334-8780-4680-a3f3-fd08517ada94"
+    },
+    {
+      "id": "269417f0-9339-4503-b649-cdcf39c93611",
+      "type": "istar.OrRefinementLink",
+      "source": "08a7d49b-a3b0-42b7-b224-48f115b9f7ff",
+      "target": "d4aff334-8780-4680-a3f3-fd08517ada94"
+    }
+  ],
+  "display": {
+    "25d772cc-442d-4fe4-903d-8111c1f7719c": {
+      "width": 108.22222900390625,
+      "height": 56.94444274902344
+    },
+    "934f24e3-8e97-4e55-b024-855a4ffe6728": {
+      "width": 98.22222900390625,
+      "height": 55.44444274902344
+    },
+    "5878dbcb-24b3-474c-a98e-5b3436710d4c": {
+      "width": 77.16604614257812,
+      "height": 50.2193489074707
+    },
+    "bda31f28-e7bb-4faa-9cdb-3587e3b1c79d": {
+      "width": 77.16580200195312,
+      "height": 42.647186279296875
+    },
+    "bb6f28d1-d9a4-4ed6-a00e-ccf6a2fa4071": {
+      "width": 72.16519165039062,
+      "height": 43.647552490234375
+    },
+    "012e8a9c-af67-4c80-8cf3-59d171ff2e2a": {
+      "width": 72.16458129882812,
+      "height": 43.6474609375
+    },
+    "3ea3703b-5b2f-47cd-a3a1-dabebc383bc6": {
+      "width": 85.14285278320312,
+      "height": 30.642852783203125
+    },
+    "08a7d49b-a3b0-42b7-b224-48f115b9f7ff": {
+      "width": 74.14285278320312,
+      "height": 30.642852783203125
+    },
+    "01cde91d-1fdb-49a9-88e5-33d9d5d353c8": {
+      "width": 89.14285278320312,
+      "height": 51.642852783203125
+    }
+  },
+  "tool": "pistar.2.0.0",
+  "istar": "2.0",
+  "saveDate": "Thu, 09 Jan 2020 17:24:48 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}

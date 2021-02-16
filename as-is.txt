@@ -1,0 +1,414 @@
+{
+  "actors": [
+    {
+      "id": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "text": "User",
+      "type": "istar.Actor",
+      "x": 591,
+      "y": 266,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "3d31d939-8f17-461f-92e3-6f5b01ca95e3",
+          "text": "recipe found",
+          "type": "istar.Goal",
+          "x": 694,
+          "y": 274,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "25d772cc-442d-4fe4-903d-8111c1f7719c",
+          "text": "recipe list with existing ingredients obtained",
+          "type": "istar.Goal",
+          "x": 751,
+          "y": 354,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "934f24e3-8e97-4e55-b024-855a4ffe6728",
+          "text": "recipe list with missing ingredients obtained",
+          "type": "istar.Goal",
+          "x": 631,
+          "y": 347,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "807eb9a0-29e0-4ab8-8eb2-de71fd33b79f",
+          "text": "defining ingredients",
+          "type": "istar.Task",
+          "x": 688,
+          "y": 424,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "0df5fb95-cc01-48f2-bbfd-3c90583ebc7b",
+          "text": "easily",
+          "type": "istar.Quality",
+          "x": 827,
+          "y": 275,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "ddefcdb8-4e16-404d-b035-9149f43b21dd",
+          "text": "missing ingredients bought",
+          "type": "istar.Goal",
+          "x": 885,
+          "y": 410,
+          "customProperties": {
+            "Description": ""
+          }
+        },
+        {
+          "id": "1c3a6ee4-c56f-40fa-9965-a3fc7d6b0bfa",
+          "text": "quickly",
+          "type": "istar.Quality",
+          "x": 882,
+          "y": 336,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "9a8f5371-0445-4588-bb2e-1f06201d16d0",
+      "text": "Recipe DB",
+      "type": "istar.Actor",
+      "x": 101,
+      "y": 40,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "cfe99983-8444-49a3-a5ed-d91c3c51b67d",
+          "text": "recipes collection",
+          "type": "istar.Resource",
+          "x": 218,
+          "y": 40,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "5231499c-8f9f-45da-a385-17ca76494ebf",
+      "text": "Pantry",
+      "type": "istar.Actor",
+      "x": 116,
+      "y": 426,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": []
+    },
+    {
+      "id": "3bedbfb6-212e-4c24-b0a6-86f1911292ae",
+      "text": "Store",
+      "type": "istar.Actor",
+      "x": 840,
+      "y": 75,
+      "customProperties": {
+        "Description": ""
+      },
+      "nodes": [
+        {
+          "id": "28a0dfde-09eb-4fe0-bd36-2f056b12ec31",
+          "text": "make profit",
+          "type": "istar.Goal",
+          "x": 921,
+          "y": 79,
+          "customProperties": {
+            "Description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "orphans": [],
+  "dependencies": [
+    {
+      "id": "9601e30e-9051-4c30-a21e-c9cd1e2a2c5d",
+      "text": "obtain list of recipes",
+      "type": "istar.Task",
+      "x": 356,
+      "y": 157,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    },
+    {
+      "id": "762b8c37-6067-4e7d-9860-acc2f2ba8a65",
+      "text": "define list of ingredients for recipe",
+      "type": "istar.Task",
+      "x": 403,
+      "y": 451,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "5231499c-8f9f-45da-a385-17ca76494ebf"
+    },
+    {
+      "id": "efb8d167-994f-4e39-bbfa-ff82ff90582e",
+      "text": "existing ingredients",
+      "type": "istar.Resource",
+      "x": 447,
+      "y": 527,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "5231499c-8f9f-45da-a385-17ca76494ebf",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "980128c5-2876-4f40-b315-732601acdde3",
+      "text": "list of ingredients",
+      "type": "istar.Resource",
+      "x": 410,
+      "y": 110,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "9a8f5371-0445-4588-bb2e-1f06201d16d0",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "8554f94d-0904-4266-9767-823e956a7f2a",
+      "text": "define missing ingredients for recipe",
+      "type": "istar.Task",
+      "x": 72,
+      "y": 297,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    },
+    {
+      "id": "d61691ab-66e6-40a3-ae65-aa40ddda5d1b",
+      "text": "obtain missing ingredients",
+      "type": "istar.Task",
+      "x": 628,
+      "y": 121,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "3bedbfb6-212e-4c24-b0a6-86f1911292ae"
+    },
+    {
+      "id": "70aa73ab-18b7-4322-acc8-75db27cce018",
+      "text": "receive payment",
+      "type": "istar.Task",
+      "x": 716,
+      "y": 171,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "3bedbfb6-212e-4c24-b0a6-86f1911292ae",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "7fd2a8d4-1a06-462c-9770-c037d8747310",
+      "text": "reviews",
+      "type": "istar.Resource",
+      "x": 170,
+      "y": 252,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    },
+    {
+      "id": "b32f53d3-0106-4ff2-8aaf-e777c25fa28b",
+      "text": "review recipes",
+      "type": "istar.Task",
+      "x": 267,
+      "y": 205,
+      "customProperties": {
+        "Description": ""
+      },
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    }
+  ],
+  "links": [
+    {
+      "id": "ce2bdaf4-fa2c-4a06-947d-3d66f8e493af",
+      "type": "istar.DependencyLink",
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "9601e30e-9051-4c30-a21e-c9cd1e2a2c5d"
+    },
+    {
+      "id": "cc48ba11-4419-49bd-8734-803b718627db",
+      "type": "istar.DependencyLink",
+      "source": "9601e30e-9051-4c30-a21e-c9cd1e2a2c5d",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    },
+    {
+      "id": "83aa11ed-9f62-4638-a11b-49b2633b73b9",
+      "type": "istar.DependencyLink",
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "762b8c37-6067-4e7d-9860-acc2f2ba8a65"
+    },
+    {
+      "id": "01de3db7-fc0d-49ab-a9b3-52c20e7b8d53",
+      "type": "istar.DependencyLink",
+      "source": "762b8c37-6067-4e7d-9860-acc2f2ba8a65",
+      "target": "5231499c-8f9f-45da-a385-17ca76494ebf"
+    },
+    {
+      "id": "d92fc68a-743b-42b7-9484-cbf29e2dc0a9",
+      "type": "istar.DependencyLink",
+      "source": "5231499c-8f9f-45da-a385-17ca76494ebf",
+      "target": "efb8d167-994f-4e39-bbfa-ff82ff90582e"
+    },
+    {
+      "id": "02fad6ec-669e-4586-81ab-a6b8a41d8fdc",
+      "type": "istar.DependencyLink",
+      "source": "efb8d167-994f-4e39-bbfa-ff82ff90582e",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "42373b05-0837-48e5-9c82-c401c1cb31df",
+      "type": "istar.DependencyLink",
+      "source": "9a8f5371-0445-4588-bb2e-1f06201d16d0",
+      "target": "980128c5-2876-4f40-b315-732601acdde3"
+    },
+    {
+      "id": "e95dbbe2-ec3c-4dc1-8cb6-14b366ad9af1",
+      "type": "istar.DependencyLink",
+      "source": "980128c5-2876-4f40-b315-732601acdde3",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "d41fbaeb-4ca4-46e4-98db-9e3b101e6cef",
+      "type": "istar.DependencyLink",
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "8554f94d-0904-4266-9767-823e956a7f2a"
+    },
+    {
+      "id": "0d005200-960d-4af4-99ee-6e833effb3dd",
+      "type": "istar.DependencyLink",
+      "source": "8554f94d-0904-4266-9767-823e956a7f2a",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    },
+    {
+      "id": "c77e008d-1589-4fbb-a36c-285fd15ab81c",
+      "type": "istar.DependencyLink",
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "d61691ab-66e6-40a3-ae65-aa40ddda5d1b"
+    },
+    {
+      "id": "13b92706-6639-4897-966f-c7787060c005",
+      "type": "istar.DependencyLink",
+      "source": "d61691ab-66e6-40a3-ae65-aa40ddda5d1b",
+      "target": "3bedbfb6-212e-4c24-b0a6-86f1911292ae"
+    },
+    {
+      "id": "4ced2bdc-eeae-465b-b026-c5d1c7ac82d4",
+      "type": "istar.OrRefinementLink",
+      "source": "934f24e3-8e97-4e55-b024-855a4ffe6728",
+      "target": "3d31d939-8f17-461f-92e3-6f5b01ca95e3"
+    },
+    {
+      "id": "97d40147-c6bc-48da-a7e0-b648c3924e79",
+      "type": "istar.OrRefinementLink",
+      "source": "25d772cc-442d-4fe4-903d-8111c1f7719c",
+      "target": "3d31d939-8f17-461f-92e3-6f5b01ca95e3"
+    },
+    {
+      "id": "a502f55c-75e0-47b7-ad81-09da4e9c45e4",
+      "type": "istar.DependencyLink",
+      "source": "3bedbfb6-212e-4c24-b0a6-86f1911292ae",
+      "target": "70aa73ab-18b7-4322-acc8-75db27cce018"
+    },
+    {
+      "id": "38a7df47-f701-4833-948f-58a83b293fe1",
+      "type": "istar.DependencyLink",
+      "source": "70aa73ab-18b7-4322-acc8-75db27cce018",
+      "target": "c6b3720a-da0e-4118-8b04-6432d287a385"
+    },
+    {
+      "id": "cde8ecc3-9c06-4364-8d3a-fb23c784bc00",
+      "type": "istar.DependencyLink",
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "7fd2a8d4-1a06-462c-9770-c037d8747310"
+    },
+    {
+      "id": "6e290137-5cc3-4ab7-98f6-5449457eb66e",
+      "type": "istar.DependencyLink",
+      "source": "7fd2a8d4-1a06-462c-9770-c037d8747310",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    },
+    {
+      "id": "e3efa9a1-67b0-4247-bf6c-9f8f9461d271",
+      "type": "istar.DependencyLink",
+      "source": "c6b3720a-da0e-4118-8b04-6432d287a385",
+      "target": "b32f53d3-0106-4ff2-8aaf-e777c25fa28b"
+    },
+    {
+      "id": "30e83ee0-a024-418c-9f7f-0b6bb51f2502",
+      "type": "istar.DependencyLink",
+      "source": "b32f53d3-0106-4ff2-8aaf-e777c25fa28b",
+      "target": "9a8f5371-0445-4588-bb2e-1f06201d16d0"
+    },
+    {
+      "id": "00bbf7ab-97e7-4af5-80b0-d0f41af2d659",
+      "type": "istar.QualificationLink",
+      "source": "0df5fb95-cc01-48f2-bbfd-3c90583ebc7b",
+      "target": "3d31d939-8f17-461f-92e3-6f5b01ca95e3"
+    },
+    {
+      "id": "13e3d3ed-4907-4b4b-bd20-e504dfa6ae2b",
+      "type": "istar.QualificationLink",
+      "source": "1c3a6ee4-c56f-40fa-9965-a3fc7d6b0bfa",
+      "target": "ddefcdb8-4e16-404d-b035-9149f43b21dd"
+    }
+  ],
+  "display": {
+    "25d772cc-442d-4fe4-903d-8111c1f7719c": {
+      "width": 108.22222900390625,
+      "height": 56.94444274902344
+    },
+    "934f24e3-8e97-4e55-b024-855a4ffe6728": {
+      "width": 98.22222900390625,
+      "height": 55.44444274902344
+    },
+    "0df5fb95-cc01-48f2-bbfd-3c90583ebc7b": {
+      "width": 82.62489318847656,
+      "height": 49.505035400390625
+    },
+    "1c3a6ee4-c56f-40fa-9965-a3fc7d6b0bfa": {
+      "width": 82.62489318847656,
+      "height": 47.505035400390625
+    }
+  },
+  "tool": "pistar.2.0.0",
+  "istar": "2.0",
+  "saveDate": "Sun, 03 Nov 2019 21:08:50 GMT",
+  "diagram": {
+    "width": 2000,
+    "height": 1300,
+    "customProperties": {
+      "Description": ""
+    }
+  }
+}
